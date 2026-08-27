@@ -1,0 +1,689 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Athletica</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.6.0/css/fontawesome.min.css">
+</head>
+
+<body id="home">
+
+<!-- ================= HEADER ================= -->
+
+<div class="header">
+
+    <div class="container">
+
+        <!-- NAVBAR -->
+        <div class="navbar">
+
+            <div class="logo">
+                <img src="images/logo.png" width="120px" height="65">
+            </div>
+
+            <nav>
+                <ul id="MenuItems">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#product">Product</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="#account">Account</a></li>
+                </ul>
+            </nav>
+
+            <img src="images/cart.png" width="30px" height="30">
+
+            <img
+                src="images/menu.png"
+                class="menu-icon"
+                onclick="menutoggle()"
+            >
+
+        </div>
+
+
+        <!-- HERO SECTION -->
+
+        <div class="row">
+
+            <div class="col-2">
+
+                <h1>
+                    What's Up, Welcome to Athletica
+                </h1>
+
+                <p>
+                    where performance meets style. Our activewear is designed
+                    for movement, comfort, and confidence, whether you're
+                    training hard or living boldly. Elevate your routine
+                    with gear that works as hard as you do.
+                </p>
+
+            </div>
+
+
+            <div class="col-2">
+
+                <img src="images/image1.png">
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+
+<!-- ================= CATEGORIES ================= -->
+
+<div class="categories">
+
+    <div class="small-container">
+
+        <div class="row">
+
+            <div class="col-3">
+
+                <img src="images/cat-1.png">
+
+                <a href="https://shopping.yahoo.com/style/shoes/article/best-slip-on-sneakers-223352804.html">
+                    The 14 best slip-on sneakers for women in 2025,
+                    according to podiatrists
+                </a>
+
+            </div>
+
+
+            <div class="col-3">
+
+                <img src="images/cat-2.png">
+
+                <a href="https://shopping.yahoo.com/beauty/skincare/article/best-eye-creams-151709175.html">
+                    These are the best eye creams of 2025,
+                    tested and reviewed
+                </a>
+
+            </div>
+
+
+            <div class="col-3">
+
+                <img src="images/cat-3.png">
+
+                <a href="https://shopping.yahoo.com/gift-ideas/article/mothers-day-gift-got-you-stumped-try-one-of-these-universally-appealing-perfumes-161517477.html">
+                    Mother's Day gift got you stumped?
+                    Try one of these universally-appealing perfumes
+                </a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+
+
+<!-- ================= PRODUCTS ================= -->
+
+<div class="small-container" id="product">
+
+    <h2 class="title">
+        Featured Product
+    </h2>
+
+
+    <div class="row">
+
+
+        <!-- TRACKSUITS -->
+
+        <div class="col-4">
+
+            <img src="images/product-1.png">
+
+            <h4>
+                Athletica Tracksuits
+            </h4>
+
+            <div class="ratings">
+                <h2>★★★☆☆</h2>
+            </div>
+
+            <p>
+                ₱1119.00
+            </p>
+
+        </div>
+
+
+        <!-- TRAINING JERSEY -->
+
+        <div class="col-4">
+
+            <img src="images/TJ.jpg">
+
+            <h4>
+                Athletica Training Jersey
+            </h4>
+
+            <div class="ratings">
+                <h2>★★★★☆</h2>
+            </div>
+
+            <p>
+                ₱699.00
+            </p>
+
+        </div>
+
+
+        <!-- TRAINING SHORTS -->
+
+        <div class="col-4">
+
+            <img src="images/ATS.png">
+
+            <h4>
+                Athletica Training Shorts
+            </h4>
+
+            <div class="ratings">
+                <h2>★★★★☆</h2>
+            </div>
+
+            <p>
+                ₱399.00
+            </p>
+
+        </div>
+
+
+        <!-- SHOES -->
+
+        <div class="col-4">
+
+            <img src="images/AJS.jpg">
+
+            <h4>
+                Athletica Jogging Shoes
+            </h4>
+
+            <div class="ratings">
+                <h2>★★★☆☆</h2>
+            </div>
+
+            <p>
+                ₱999.00
+            </p>
+
+        </div>
+
+    </div>
+
+</div>
+
+
+
+<!-- ================= OFFER ================= -->
+
+<div class="offer">
+
+    <div class="small-container">
+
+        <div class="row">
+
+            <div class="col-2">
+
+                <img
+                    src="images/relo.png"
+                    class="offer-img"
+                >
+
+            </div>
+
+
+            <div class="col-2">
+
+                <p>
+                    Exclusive Available on Athletica
+                </p>
+
+                <br>
+
+                <h1>
+                    PACE 3 COROS
+                </h1>
+
+                <br>
+
+                <small>
+                    The COROS PACE 3 is a lightweight GPS watch
+                    with dual-frequency tracking, 24-day battery life,
+                    and over 30 sport modes. It offers heart rate and
+                    sleep monitoring, music storage with Bluetooth
+                    playback, and offline maps for navigation -
+                    perfect for serious athletes and outdoor workouts.
+                </small>
+
+                <br>
+
+                <a
+                    href="https://kenshinue.github.io/PACE-3-COROS/"
+                    class="btn"
+                >
+                    Buy Now &#8594;
+                </a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+
+
+<!-- ================= INVESTORS ================= -->
+
+<div class="investors">
+
+    <div class="small-container">
+
+        <div class="row">
+
+
+            <!-- INVESTOR 1 -->
+
+            <div class="col-3">
+
+                <h1>❝</h1>
+
+                <p>
+                    Austine is an investor in Athletica,
+                    backing its mission to enhance athletic
+                    performance through smart, data-driven
+                    training tools. With a keen interest in
+                    sports technology, Austine supports the
+                    company’s growth and innovation in athlete
+                    development.
+                </p>
+
+                <div class="ratings">
+                    <h2>★★★★☆</h2>
+                </div>
+
+                <img src="images/austine.png">
+
+                <h3>
+                    Austine Occidental
+                </h3>
+
+            </div>
+
+
+            <!-- INVESTOR 2 -->
+
+            <div class="col-3">
+
+                <h1>❝</h1>
+
+                <p>
+                    Christian Josh Coele is an investor in
+                    Athletica, supporting its vision to empower
+                    athletes through intelligent training solutions.
+                    With a strong interest in performance technology
+                    and innovation, he contributes to the company’s
+                    mission of redefining modern athletic development.
+                </p>
+
+                <div class="ratings">
+                    <h2>★★★★★</h2>
+                </div>
+
+                <img src="images/josh.png">
+
+                <h3>
+                    Christian Josh Coele
+                </h3>
+
+            </div>
+
+
+            <!-- INVESTOR 3 -->
+
+            <div class="col-3">
+
+                <h1>❝</h1>
+
+                <p>
+                    Justine Paul Villamor is an investor in Athletica,
+                    backing the company’s commitment to innovation
+                    in athletic performance. Her support reflects
+                    a belief in the power of data-driven training
+                    solutions to shape the future of sports and
+                    athlete development.
+                </p>
+
+                <div class="ratings">
+                    <h2>★★★★☆</h2>
+                </div>
+
+                <img src="images/justine.png">
+
+                <h3>
+                    Justine Paul Villamor
+                </h3>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+
+
+<!-- ================= BRANDS ================= -->
+
+<div class="brands">
+
+    <div class="small-container">
+
+        <div class="row">
+
+            <div class="col-5">
+                <img src="images/paymaya-logo.png">
+            </div>
+
+            <div class="col-5">
+                <img src="images/logo-oppo.png">
+            </div>
+
+            <div class="col-5">
+                <img src="images/logo-coca-cola.png">
+            </div>
+
+            <div class="col-5">
+                <img src="images/logo-paypal.png">
+            </div>
+
+            <div class="col-5">
+                <img src="images/gcash-logo.png">
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+
+
+<!-- ================= ABOUT ================= -->
+
+<section id="about" class="info-section">
+
+    <div class="small-container">
+
+        <h2 class="title">
+            About Athletica
+        </h2>
+
+        <div class="info-content">
+
+            <p>
+                Athletica is a sports and activewear brand dedicated
+                to providing comfortable, stylish, and performance-focused
+                products for athletes and fitness enthusiasts.
+            </p>
+
+            <p>
+                Our goal is to help people stay active and confident
+                by providing products designed for training, exercise,
+                and everyday movement.
+            </p>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- ================= CONTACT ================= -->
+
+<section id="contact" class="info-section">
+
+    <div class="small-container">
+
+        <h2 class="title">
+            Contact Us
+        </h2>
+
+        <div class="info-content">
+
+            <p>
+                Have questions about our products?
+                Feel free to contact the Athletica team.
+            </p>
+
+            <p>
+                📧 Email: athletica@example.com
+            </p>
+
+            <p>
+                📱 Phone: +63 900 000 0000
+            </p>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- ================= ACCOUNT ================= -->
+
+<section id="account" class="info-section">
+
+    <div class="small-container">
+
+        <h2 class="title">
+            Account
+        </h2>
+
+        <div class="account-box">
+
+            <h3>
+                Welcome to Athletica
+            </h3>
+
+            <p>
+                Login or create an account to manage your
+                Athletica orders and profile.
+            </p>
+
+            <a href="#" class="btn">
+                Login
+            </a>
+
+            <a href="#" class="btn">
+                Register
+            </a>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- ================= FOOTER ================= -->
+
+<div class="footer">
+
+    <div class="container">
+
+        <div class="row">
+
+
+            <!-- FOOTER COLUMN 1 -->
+
+            <div class="footer-col-1">
+
+                <h3>
+                    Download Our App
+                </h3>
+
+                <p>
+                    Download App for Android and ios mobile phone.
+                </p>
+
+                <div class="app-logo">
+
+                    <img src="images/play-store.png">
+
+                    <img src="images/app-store.png">
+
+                </div>
+
+            </div>
+
+
+            <!-- FOOTER COLUMN 2 -->
+
+            <div class="footer-col-2">
+
+                <img
+                    src="images/logo-white.PNG"
+                    width="125px"
+                >
+
+                <p>
+                    Our Purpose Is To Sustainably Make the Pleasure
+                    and Benefits of Sports Accessible to the Many.
+                </p>
+
+            </div>
+
+
+            <!-- FOOTER COLUMN 3 -->
+
+            <div class="footer-col-3">
+
+                <h3>
+                    Useful Links
+                </h3>
+
+                <ul>
+
+                    <li>
+                        Coupons
+                    </li>
+
+                    <li>
+                        Blog Post
+                    </li>
+
+                    <li>
+                        Return Policy
+                    </li>
+
+                    <li>
+                        Join Affiliate
+                    </li>
+
+                </ul>
+
+            </div>
+
+
+            <!-- FOOTER COLUMN 4 -->
+
+            <div class="footer-col-4">
+
+                <h3>
+                    GROUP MEMBERS
+                </h3>
+
+                <ul>
+
+                    <li>Aiona Granada</li>
+                    <li>Austine Occidental</li>
+                    <li>Christian Josh Coele</li>
+                    <li>Jhalo Pantaleon</li>
+                    <li>Arjhay Diaz</li>
+                    <li>Justine Villamor</li>
+                    <li>Kristoff Corillo</li>
+                    <li>Marc Laurence Villa</li>
+                    <li>Youri Acosta</li>
+
+                </ul>
+
+            </div>
+
+        </div>
+
+
+        <hr>
+
+        <p class="Copyright">
+            © 2025 Athletica. All rights reserved.
+        </p>
+
+    </div>
+
+</div>
+
+
+
+<!-- ================= JAVASCRIPT ================= -->
+
+<script>
+
+    var MenuItems = document.getElementById("MenuItems");
+
+    MenuItems.style.maxHeight = "0px";
+
+
+    function menutoggle() {
+
+        if (MenuItems.style.maxHeight == "0px") {
+
+            MenuItems.style.maxHeight = "200px";
+
+        }
+
+        else {
+
+            MenuItems.style.maxHeight = "0px";
+
+        }
+
+    }
+
+</script>
+
+
+</body>
+</html>
